@@ -1,0 +1,1 @@
+"use strict";angular.module("myApp",["ngRoute","myApp.tweet"]).config(["$locationProvider","$routeProvider",function(e,t){e.hashPrefix(),t.otherwise({redirectTo:"/tweets"})}]);

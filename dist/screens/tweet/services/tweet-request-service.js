@@ -1,0 +1,1 @@
+"use strict";function TweetRequestService(){function e(){return{id:"x",name:"yy"}}this.get=e}angular.module("myApp.tweet.TweetRequestService",[]).service("TweetRequestService",TweetRequestService);

@@ -1,0 +1,1 @@
+"use strict";function getTweetOverviewPage(){return{templateUrl:"screens/tweet/tweet-page.tpl.html",controller:"TweetPageController",resolve:{tweets:function(){return{id:"x",name:"y"}}}}}angular.module("myApp.tweet",["myApp.tweet.TweetPageController"]).config(function(e){e.when("/tweets",getTweetOverviewPage())});
